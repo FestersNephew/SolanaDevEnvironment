@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "esnext", // Enables ES Modules
+    "target": "es6", // or higher, depending on your environment
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "types": ["node"],
+    "moduleResolution": "node", // Important for resolving modules like in Node.js
+    "skipLibCheck": true
+  },
+  "include": [
+    "migrations/**/*.ts",
+    "app/**/*.ts"
+  ]
+}
